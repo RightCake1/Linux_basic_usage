@@ -206,6 +206,12 @@ df -T # Display filesystem type
 ```bash
 df -hT # Display disk usage with filesystem type in human-readable format
 ```
+```bash
+du -Sh # Display the total disk usage of a folder
+```
+```bash
+du -h # Display the disk usage of each file in the folder
+```
 
 ## Display memory usage
 ```bash
@@ -243,6 +249,9 @@ chmod 755 filename
 ```
 ```bash
 chmod +x filename # Add execute permission
+```
+```bash
+chmod +rwx filename # Add read, write, and execute permission
 ```
 
 ## Download a file from the internet
